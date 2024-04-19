@@ -1,0 +1,41 @@
+/*Normalizado*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Aileron;
+    src: url('../assets/fonts/aileron/Aileron-Regular.otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/*Colores
+
+#283E50 
+#916A64
+#B5ECDF
+#9AD0C3
+
+*/
+
+body{
+    font-family: Aileron;
+}
+
+/*Nav*/
+nav{
+    background-color: #283E50;
+    color: #B5ECDF;
+}
+.navbar-toggler-icon{
+    fill: #9AD0C3;
+}
+.nav-link{
+    color: #9AD0C3;
+    font-weight: bold;
+}
+.burguer-btn{
+    border-color: #9AD0C3;
+    color: #9AD0C3;
+
+}
