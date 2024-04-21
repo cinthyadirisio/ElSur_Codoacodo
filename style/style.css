@@ -20,10 +20,14 @@
 
 body{
     font-family: Aileron;
+    min-height: 100vh;
+}
+header{
+    min-height: 15vh;
 }
 
 /*Nav*/
-nav{
+nav, footer{
     background-color: #283E50;
     color: #B5ECDF;
 }
@@ -37,5 +41,20 @@ nav{
 .burguer-btn{
     border-color: #9AD0C3;
     color: #9AD0C3;
+}
 
+main{
+    min-height: 45vh;
+    display: flex;
+    flex-grow: 4;
+}
+
+
+
+footer{
+    min-height: 40vh;
+}
+footer form button{
+    background-color: #9AD0C3;
+    color: #283E50;
 }
