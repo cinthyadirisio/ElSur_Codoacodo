@@ -55,8 +55,12 @@ main {
     display: flex;
     flex-grow: 4;
     background-color: beige;
+    flex-direction: column;
+    align-items: center;
 }
 
+
+/*seccion ebooks*/
 .cardcontainer {
     display: flex;
     flex-direction: row;
@@ -66,7 +70,6 @@ main {
 
 .tarjeta {
     width: 13.7rem;
-    height: 1rems;
     background-image: url("https://www.despuesdelcyberpunk.com/wp-content/uploads/2022/05/it-eso-674x1024.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -95,14 +98,21 @@ main {
 }
 
 
-
-
-
+/*seccion detalles*/
+.tarjetagrande{
+    display: flex;
+    width: 100%;
+    min-height: 70vh;
+    justify-content: space-between;
+    background-color: #283E50 ;
+    color: #8bb3aa;
+}
+.tarjetagrande img{
+    width: 45%;
+}
+.textotarjgrande{
+    justify-content: space-around;
+}
 footer {
     min-height: 40vh;
-}
-
-footer form button {
-    background-color: #9AD0C3;
-    color: #283E50;
 }
