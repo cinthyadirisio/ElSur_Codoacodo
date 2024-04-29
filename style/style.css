@@ -1,13 +1,15 @@
 /*Normalizado*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: Aileron;
     src: url('../assets/fonts/aileron/Aileron-Regular.otf');
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 /*Colores
 
@@ -18,43 +20,89 @@
 
 */
 
-body{
+body {
     font-family: Aileron;
     min-height: 100vh;
 }
-header{
+
+header {
     min-height: 15vh;
 }
 
 /*Nav*/
-nav, footer{
+nav,
+footer {
     background-color: #283E50;
     color: #B5ECDF;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     fill: #9AD0C3;
 }
-.nav-link{
+
+.nav-link {
     color: #9AD0C3;
     font-weight: bold;
 }
-.burguer-btn{
+
+.burguer-btn {
     border-color: #9AD0C3;
     color: #9AD0C3;
 }
 
-main{
+main {
     min-height: 45vh;
     display: flex;
     flex-grow: 4;
+    background-color: beige;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tarjeta {
+    width: 13.7rem;
+    height: 1rems;
+    background-image: url("https://www.despuesdelcyberpunk.com/wp-content/uploads/2022/05/it-eso-674x1024.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.textotarjeta {
+    opacity: 0%;
+    width: 100%;
+    height: 100%;
+    font-size: smaller;
+    color: #8bb3aa;
+    background-color: #283e50d8;
+    justify-content: space-between;
+    transition: 1s;
+}
+
+.descripcion {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 12rem; /* Ajusta según la altura deseada */
+  }
+
+.textotarjeta:hover {
+    opacity: 100%;
 }
 
 
 
-footer{
+
+
+footer {
     min-height: 40vh;
 }
-footer form button{
+
+footer form button {
     background-color: #9AD0C3;
     color: #283E50;
 }
