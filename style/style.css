@@ -97,6 +97,24 @@ main {
     opacity: 100%;
 }
 
+/*seccion pedidos y donaciones*/
+.banner{
+    width: 100%;
+    height: 40vh;
+    background-position: 75% 75%;
+    background-repeat: no-repeat;
+    background-color: #283E50;
+}
+.banner-beach{
+    background-image: url("../assets/img/ebook-beach.jpg");
+}
+.banner-ebook{
+    background-image: url("../assets/img/eBooks-Banner.png");
+}
+.img-donaciones{
+    height: 10rem;
+    
+=======
 /* Seccion reseñas */
 .card {
     border: 1px solid #ccc;
