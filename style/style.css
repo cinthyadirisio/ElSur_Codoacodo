@@ -113,8 +113,8 @@ main {
 }
 .img-donaciones{
     height: 10rem;
-    
-=======
+}
+
 /* Seccion reseñas */
 .card {
     border: 1px solid #ccc;
@@ -156,7 +156,7 @@ main {
     background-color: #0056b3;
 }
 
-/* Estilos para la sección de reseñas */
+/* sección de reseñas */
 #main {
     padding: 40px 0;
 }
