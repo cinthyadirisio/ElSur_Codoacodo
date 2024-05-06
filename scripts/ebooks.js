@@ -1,1 +1,0 @@
-let cardcontainer = document.getElementById(cardcontainer)
