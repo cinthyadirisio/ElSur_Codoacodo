@@ -67,6 +67,7 @@ h1 {
 }
 
 .card_index{
+    height: 10%;
     width:100%;
     display:flex;
     gap:50px;
