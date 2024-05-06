@@ -75,7 +75,10 @@ h1 {
 }
 
 .card_libro{
+    margin-top: 2%;
     width:310px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(201, 201, 201);
 }
 
 img{
