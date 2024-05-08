@@ -38,15 +38,17 @@ function pintarTarjetas(array, container) {
         let div = document.createElement('div')
         div.classList = 'tarjeta'
         div.innerHTML = `
-        <img src=${elemento.cover} alt=${elemento.titulo}>
-        <div class="textotarjeta p-2">
-        <h5 class="fw-bold">${elemento.titulo}</h5>
-        <h6>${elemento.autor}</h6>
-        ${elemento.generos.map(item => `<span class="badge text-bg-dark">${item}</span>`).join(' ')}
-        <span class="badge text-bg-dark">Terror</span>
-        <p class="descripcion">${elemento.sinopsis}</p>
-        <a href="./detalles.html?id=${elemento.id}" class="btn btn-dark">Leer más!</a>
-    </div>`
+            <img src=${elemento.cover} alt=${elemento.titulo}>
+            <div class="textotarjeta p-2">
+                <h5 class="fw-bold">${elemento.titulo}</h5>
+                <h6>${elemento.autor}</h6>
+                <div class="my-2">
+                    ${elemento.generos.map(item => `<span class="badge text-bg-dark">${item}</span>`).join(' ')}
+                </div>
+                <div class="my-2">
+                    <a href="./detalles.html?id=${elemento.id}" class="btn btn-dark">Leer más!</a>
+                </div>
+            </div>`
         fragmento.appendChild(div)
     })
     container.appendChild(fragmento)

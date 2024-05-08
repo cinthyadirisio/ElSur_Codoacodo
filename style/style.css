@@ -115,27 +115,23 @@ main {
 }
 .tarjeta img{
     position: absolute;
-    width: inherit;
-    height: inherit;
+    width: 14rem;
+    height: 340px;
     object-fit: cover;
-    z-index: 0;
 }
 .textotarjeta {
     opacity: 0%;
-    width: 100%;
-    height: inherit;
+    width: 14rem;
+    height: 340px;
     font-size: smaller;
     color: #8bb3aa;
     background-color: #283e50e0;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     transition: 1s;
-    z-index: 5;
-}
-
-.descripcion {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-height: 8rem;
 }
 
 .textotarjeta:hover {

@@ -25,7 +25,7 @@ function pintarDetalles(element, container) {
                 <h2 class="fw-bold">${element.titulo}</h2>
                 <h3>${element.autor}</h3>
                 ${element.generos.map(item => `<span class="badge text-bg-dark">${item}</span>`).join(' ')}
-                <p>${element.sinopsis}</p>
+                <p class="my-2">${element.sinopsis}</p>
                 <div>
                     <h6 class="fw-bolder">Disponible en:</h6>
                     ${element.epub !== "void" ? `<a href="${element.epub}" class="btn btn-dark" target="_blank">ePub</a>` : ''}
