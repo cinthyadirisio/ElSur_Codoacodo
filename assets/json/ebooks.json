@@ -35,7 +35,7 @@
         "Juvenil",
         "Novela"
       ],
-      "cover": "https://www.oceanotravesia.mx/img/obra/media/23512.jpg",
+      "cover": "https://images.cdn1.buscalibre.com/fit-in/360x360/11/86/1186160e788e81ecf3703a4f6ce33b12.jpg",
       "sinopsis": "Vélez es un anodino oficinista maniático de la limpieza y poco aficionado a los sobresaltos que un día recibe la invitación para reunirse con los exalumnos de su antigua escuela preparatoria. Pero el reencuentro se convierte en pesadilla cuando en el yate donde están celebrando la fiesta, Vélez y sus compañeros son abordados por unos piratas que asesinan frente a sus ojos a una de sus antiguas amigas. En ese momento, Vélez descubre que ha sido elegido para desentrañar un juego macabro con el fin de evitar nuevas muertes. Abrumado e incapaz de resolver el enigma, Vélez recurre entonces a la ayuda de Pereira, su antiguo profesor de la preparatoria. Juntos forman una cómica y singular pareja detectivesca al estilo de Sherlock Homes y el doctor Watson; y poco a poco irán descubriendo que Vélez está implicado en una trama donde el verdadero protagonista, el anónimo autor del juego, utiliza la sombría obra de Edgar Allan Poe para mover los hilos de este misterio.",
       "epub": "https://www.antupload.com/file/7p1CrPLk/",
       "pdf": "https://www.antupload.com/file/o8tHYFUn/"
@@ -265,94 +265,131 @@
       "sinopsis": "Érase una vez un pueblo donde las noches eran largas y la muerte contaba su propia historia. En el pueblo vivía una niña que quería leer, un hombre que tocaba el acordeón y un joven judío que escribía cuentos hermosos para escapar del horror de la guerra. Al cabo de un tiempo, la niña se convirtió en una ladrona que robaba libros y regalaba palabras. Con estas palabras se escribió una historia hermosa y cruel que ahora ya es una novela inolvidable.",
       "epub": "https://www.antupload.com/file/ygXcvuBM/",
       "pdf": "https://www.antupload.com/file/oxYp7Dmt/"
-    },{
+    },
+    {
       "id": "021",
       "titulo": "Arde la vida",
       "autor": "Magalí Tajes",
-      "generos": ["Humor", "Drama", "Cuentos"],
+      "generos": [
+        "Humor",
+        "Drama",
+        "Cuentos"
+      ],
       "cover": "https://i.postimg.cc/KYZBN4kd/arde-la-vida.jpg",
       "sinopsis": "Relatos que entrelazan amores, desencuentros, amigos, tropiezos, aventuras, la búsqueda de una libertad imposible, el encuentro con el horror, la risa en el dolor, la inocencia de mostrarse irrompible y un disfraz que se cansó o de ser usado y no puede huir porque está adherido a ese ente que solemos llamar persona. ¿Qué hay debajo del disfraz? ¿Y si no hubiera nada? ¿Cuál es el precio de vivir con esa nada?",
       "epub": "void",
       "pdf": "https://www.mediafire.com/file/k5xkft8h3ggj8f8/Arde_la_vida_-_Magali_Tajes.pdf/file"
-    },{
+    },
+    {
       "id": "024",
       "titulo": "Bar del Infierno",
       "autor": "Alejandro Dolina",
-      "generos": ["Novela"],
+      "generos": [
+        "Novela"
+      ],
       "cover": "https://i.postimg.cc/Jz3jZjnN/BAR-DEL-INFIERNO.jpg",
       "sinopsis": "El cafetín es un laberinto. Nuestro destino es extraviarnos en sus encrucijadas. Pero algunos presienten una verdad aún más terrible: no se puede salir del bar… El afuera no existe. El Narrador de Historias está obligado a contar un cuento cada noche, a las doce. Nadie le presta atención. Amores imposibles de la provincia de Buenos Aires, ciudades lejanas gobernadas por jaurías integran el curioso repertorio. Pero el Narrador es también personaje de otra historia que lo muestra involucrado en una conspiración para salir del bar, del tiempo o del lenguaje.",
       "epub": "https://www.mediafire.com/file/a1wbwdqk3m7tem0/Bar_Del_Infierno.epub/file",
       "pdf": "void"
-    },{
+    },
+    {
       "id": "025",
       "titulo": "Cometierra",
       "autor": "Dolores Reyes",
-      "generos": ["Literatura contemporánea"],
+      "generos": [
+        "Literatura contemporánea"
+      ],
       "cover": "https://i.postimg.cc/fRQxV8wW/COMETIERRA.jpg",
       "sinopsis": "Dice Cometierra: «Me acosté en el suelo, sin abrir los ojos. Había aprendido que de esa oscuridad nacían formas. Traté de verlas y de no pensar en nada más, ni siquiera en el dolor que me llegaba desde la panza. Nada, salvo un brillo que miré con toda atención hasta que se transformó en dos ojos negros. Y de a poco, como si la hubiera fabricado la noche, vi la cara de María, los hombros, el pelo que nacía de la oscuridad más profunda que había visto en mi vida». Cuando era chica, Cometierra tragó tierra y supo en una visión que su papá había matado a golpes a su mamá. Esa fue solo la primera de las visiones. Nacer con un don implica una responsabilidad hacia los otros y a Cometierra le tocó uno que hace su vida doblemente difícil, porque vive en un barrio en donde la violencia, el desamparo y la injusticia brotan en cada rincón y porque allí las principales víctimas son las mujeres. En la persecución de la verdad, en el descubrimiento del amor, en el cuidado entre hermanos, Cometierra buscará su propio camino. Dolores Reyes ha escrito una primera novela terrible y luminosa, lírica, dulce y brutal, narrada con una voz que nos conmueve desde la primera página.",
       "epub": "https://www.mediafire.com/file/4lf8xvoese4z2k7/Cometierra.epub/file",
       "pdf": "void"
-    },{
+    },
+    {
       "id": "026",
       "titulo": "El Diario de Ana Frank",
       "autor": "Anne Frank",
-      "generos": ["Novela", "Realismo"],
+      "generos": [
+        "Novela",
+        "Realismo"
+      ],
       "cover": "https://i.postimg.cc/nzhKHMnv/El-diario-de-Ana-Frank.jpg",
       "sinopsis": "Un testimonio único sobre el horror y la barbarie nazi, y sobre los sentimientos y experiencias que vivió una niña judía recluida con su familia para huir del Holocausto. Tras la invasión de Holanda, los Frank, comerciantes judíos alemanes emigrados a Amsterdam en 1933, se ocultaron de la Gestapo en una buhardilla anexa al edificio donde el padre de Anne tenía sus oficinas. Eran ocho personas y permanecieron recluidas desde junio de 1942 hasta agosto de 1944, fecha en que fueron detenidas y enviadas a campos de concentración. En ese lugar y en las más precarias condiciones, Anne, a la sazón una niña de trece años, escribió su estremecedor Diario: un testimonio único en su género sobre el horror y la barbarie nazi, y sobre los sentimientos y experiencias de la propia Anne y sus acompañantes. Anne murió en el campo de Bergen-Belsen en marzo de 1945. Su Diario nunca morirá. «De entre los muchos que, a lo largo de la historia, han hablado en nombre de la dignidad humana en tiempos de sufrimiento y muerte, no hay ninguna voz que tenga más peso que la de Anne Frank.» John F. Kennedy",
       "epub": "void",
       "pdf": "https://www.mediafire.com/file/nin8xx2erwhtl0i/El_diario_de_Ana_Frank_-_Anne_Frank.pdf/file"
-    },{
+    },
+    {
       "id": "027",
       "titulo": "El Principito",
       "autor": "Antoine de Saint-Exupéry",
-      "generos": ["Novela"],
+      "generos": [
+        "Novela"
+      ],
       "cover": "https://i.postimg.cc/Hnfb42X2/EL-PRINCIPITO.jpg",
       "sinopsis": "Fábula mítica y relato filosófico que interroga acerca de la relación del ser humano con su prójimo y con el mundo, El Principito concentra, con maravillosa simplicidad, la constante reflexión de Saint-Exupéry sobre la amistad, el amor, la responsabilidad y el sentido de la vida.",
       "epub": "void",
       "pdf": "https://www.mediafire.com/file/153xc831ut7atfi/ElPrincipito.pdf/file"
-    },{
+    },
+    {
       "id": "028",
       "titulo": "La guerra de los mundos",
       "autor": "H. G. Wells",
-      "generos": ["Novela", "Ciencia Ficción"],
+      "generos": [
+        "Novela",
+        "Ciencia Ficción"
+      ],
       "cover": "https://i.postimg.cc/kGVxbZ6G/La-guerra-de-los-mundos.jpg",
       "sinopsis": "Equipados con terribles máquinas, los invasores aterrizan en nuestro planeta y empiezan a sembrar el terror y la destrucción. Su único objetivo es conquistar la Tierra y convertir a los humanos en sus esclavos. Parece que nada ni nadie podrá detenerlos.",
       "epub": "https://www.mediafire.com/file/pvn9vxnc7kt3ius/La_Guerra_De_Los_Mundos.epub/file",
       "pdf": "void"
-    },{
+    },
+    {
       "id": "029",
       "titulo": "La riqueza de las naciones",
       "autor": "Adam Smith",
-      "generos": ["Economía"],
+      "generos": [
+        "Economía"
+      ],
       "cover": "https://i.postimg.cc/c1j7Ss2n/La-riqueza-de-las-naciones.jpg",
       "sinopsis": "Smith expone su análisis sobre el origen de la prosperidad de países como Inglaterra o los Países Bajos. Desarrolla teorías económicas sobre la división del trabajo, el mercado, la moneda, la naturaleza de la riqueza, el precio de las mercancías en trabajo, los salarios, los beneficios y la acumulación del capital.",
       "epub": "https://www.mediafire.com/file/kesrgia2dmfs3b7/La_Riqueza_De_Las_Naciones.epub/file",
       "pdf": "void"
-    },{
+    },
+    {
       "id": "030",
       "titulo": "Recuerdos, sueños, pensamientos",
       "autor": "C. G. Jung",
-      "generos": ["Psicoanálisis"],
+      "generos": [
+        "Psicoanálisis"
+      ],
       "cover": "https://i.postimg.cc/VLCqsxPH/Recuerdos-sue-os-pensamientos.jpg",
       "sinopsis": "En la primavera de 1957, cuando contaba ochenta y un años, Carl Gustav Jung emprendió el relato de su vida con la ayuda de su colega y amiga Aniela Jaffe. Pero en estas memorias las anécdotas se ponen al servicio exclusivo de su concepción del inconsciente y del hombre. No se recogen encuentros con otras celebridades ni se pronuncian discursos sobre el curso del mundo. En estas páginas conoceremos los años de formación, su ambivalente relación con Freud, los viajes y los descubrimientos, y la gestación de su religiosidad.",
       "epub": "https://www.mediafire.com/file/hbq1htg50580huc/Recuerdos_Suenos_Pensamientos.epub/file",
       "pdf": "void"
-    },{
+    },
+    {
       "id": "031",
       "titulo": "Somos polvo de estrellas",
       "autor": "Anissa B. Damom",
-      "generos": ["Novela Juvenil"],
+      "generos": [
+        "Novela",
+        "Juvenil"
+      ],
       "cover": "https://i.postimg.cc/Ss16jqKH/Somos-polvo-de-estrellas.jpg",
       "sinopsis": "¿Alguna vez has deseado retroceder en el tiempo? Ojalá fuese tan sencillo como cerrar los ojos con fuerza, desearlo con ganas y despertar tiempo atrás, cuando te creías seguro de todas las cosas malas, pero sabemos que el tiempo es inalterable. No podemos evitar que ocurran desgracias, ni impedir que estas nos transformen en versiones de nosotros mismos a quienes no reconocemos. Olivia, a sus dieciséis años, acaba de descubrir que el mundo es un lugar en el que no estás a salvo, que el Destino te puede arrebatar la felicidad en un instante y que querer, incluso a uno mismo, implica tomar decisiones para las que no siempre estamos preparados. «Somos polvo de estrellas» habla sobre la pérdida, la amistad, la familia y la lucha por los sueños apostando por la obligación de volver a sonreír.",
       "epub": "https://www.mediafire.com/file/t2zxbwgchx02134/Somos_polvo_de_estrellas_-_Anissa_B.pdf/file",
       "pdf": "void"
+    },
+    {
+      "id": "032",
+      "titulo": "Álgebra Lineal",
+      "autor": "Stanley I. Grossman",
+      "generos": [
+        "Ciencias Exactas"
+      ],
+      "cover": "https://images.cdn3.buscalibre.com/fit-in/360x360/ea/23/ea2339ac6c4b1518a5caa850ecbda6ef.jpg",
+      "sinopsis": "Este libro está dirigido a los estudiantes de carreras técnicas, pero también puede ser utilizado por los estudiantes de matemáticas o física. Contiene más de 340 ejemplos y cerca de 2400 ejercicios. Hay problemas y secciones de autoevaluación para los alumnos. La estructura del libro es adecuada para diferentes niveles, desde principiantes hasta lectores más avanzados que pueden deshacerse de algunas partes del libro que ya conocen. Incluye temas como sistemas de ecuaciones lineales, matrices, determinantes, vectores en R2 y R3, espacios vectoriales, transformaciones lineales, eigenvalores, eigenvectores y formas canónicas, entre otros.",
+      "link-epub": "void",
+      "link-pdf": "https://www.mediafire.com/file/euyiffvj6bvvl7v/Algebra_Lineal.pdf/file"
     }
-    
-    
-    
-    
-    
-    
-    
   ]
 }

@@ -32,7 +32,7 @@ header {
 
 /*Nav*/
 nav,
-footer {
+footer, .offcanvas {
     background-color: #283E50;
     color: #B5ECDF;
 }
@@ -230,6 +230,7 @@ h1 {
 
 .tarjetagrande img {
     width: 45%;
+    object-fit: cover;
 }
 
 footer {
