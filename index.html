@@ -15,7 +15,7 @@
     <title>El Sur - Home</title>
 </head>
 
-<body class="w-100">
+<body>
     <header>
         <nav class="navbar">
             <div class="container-fluid">
@@ -64,101 +64,53 @@
     </header>
 
     <main id="main">
-        <section>
-            <h1 class="titleindex">El Sur Ebooks</h1>
-            <section>
-                <h2 class="text-center">Esta semana tenés mas libros para elegir!</h2>
-                <div id="ultimosContainer" class="contenedor"></div>
-            </section>
+        <div class="banner banner-elsur contenedor columna">
+            <h1 class="fade-in-out">EL SUR</h1>
+            <h2 class="smallerpink fade-in-out">EBOOKS</h2>
+            
+        </div>
 
+        <section class="ultimos">
+            <article>
+                <h2>¡Esta semana tenés mas libros para elegir!</h2>
+                <div id="ultimosContainer" class="contenedor"></div>
+            </article>
         </section>
-        <section class="container">
+
+        <section class="contenedor">
             <h3>Géneros disponibles</h3>
             <div id="generosbadges" class="contenedor"></div>
         </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <section class="card_index">
-            <div class="card_libro">
-                <div class="card_tapa">
-                    <img class="tapa" src="./assets/img/tapas/EL_PRINCIPITO.JPG" alt="tapa">
-                    <h2>El principito</h2>
-                    <p>Novela Corta</p>
-                </div>
-                <div class="card_descripcion">
-                    <p>Fábula mítica y relato filosófico que interroga acerca de la relación del ser humano con su
-                        prójimo y con el mundo, El Principito concentra, con maravillosa simplicidad, la constante
-                        reflexión de Saint-Exupery sobre la amistad, el amor, la responsabilidad y el sentido de la
-                        vida.</p>
-                    <hr>
-                </div>
-                <div class="card_enlace">
-                    <a class="enlace" href="#">ir a ver</a>
-                </div>
-            </div>
-
-            <div class="card_libro">
-                <div class="card_tapa">
-                    <img class="tapa" src="./assets/img/tapas/BAR_DEL_INFIERNO.JPG" alt="tapa">
-                    <h2>Bar del infierno</h2>
-                    <p>Novela literaria</p>
-                </div>
-                <div class="card_descripcion">
-                    <p>El cafetín es un laberinto. Nuestro destino es extraviarnos en sus encrucijadas. Pero algunos
-                        presienten una verdad aún más terrible: no se puede salir del bar… El afuera no existe.
-                        El Narrador de Historias está obligado a contar un cuento cada noche, a las doce. Nadie le
-                        presta atención. Amores imposibles de la provincia de Buenos Aires, ciudades lejanas gobernadas
-                        por jaurías integran el curioso repertorio. Pero el Narrador es también personaje de otra
-                        historia que lo muestra involucrado en una conspiración para salir del bar, del tiempo o del
-                        lenguaje.</p>
-                    <hr>
-                </div>
-                <div class="card_enlace">
-                    <a class="enlace" href="#">ir a ver</a>
-                </div>
-            </div>
-
-            <div class="card_libro">
-                <div class="card_tapa">
-                    <img class="tapa" src="./assets/img/tapas/Recuerdos_sueños_pensamientos.JPG" alt="tapa">
-                    <h2>Recuerdos, sueños y pensamientos</h2>
-                    <p>Psicoanalisis</p>
-                </div>
-                <div class="card_descripcion">
-                    <p>En la primavera de 1957, cuando contaba ochenta y un años, Carl Gustav Jung emprendió el relato
-                        de su vida con la ayuda de su colega y amiga Aniela Jaffe. Pero en estas memorias las anecdotas
-                        se ponen al servicio exclusivo de su concepción del inconsciente y del hombre. No se recogen
-                        encuentros con otras celebridades ni se pronuncian discursos sobre el curso del mundo. En estas
-                        páginas conoceremos los años de formación, su ambivalente relación con Freud, los viajes y los
-                        descubrimientos, y la gestación de su religiosidad.</p>
-                    <hr>
-                </div>
-                <div class="card_enlace">
-                    <a class="enlace" href="#">ir a ver</a>
-                </div>
-            </div>
-
-        </section> -->
-
+        <div class="banner banner-beach"></div>
+        <section class="contenedor columna preguntas">
+            <article>
+                <h4>¿Cómo puedo descargar ebooks desde el sitio?</h4>
+                <p>Selecciona el ebook de tu interés de nuestra lista y elige el formato que desees de los disponibles en la seccion de detalles.</p>
+            </article>
+            <article>
+                <h4>¿Qué formatos de ebooks están disponibles?</h4>
+                <p>En este sitio encontrarás ebooks en formato ePub y Pdf.</p>
+            </article>
+            <article>
+                <h4>¿Qué aplicación puedo usar para leer los ebooks que descargué?</h4>
+                <p>Nosotros recomendamos <a href="https://www.adobe.com/ar/acrobat/pdf-reader.html" target="_blank" rel="noopener noreferrer">Acrobat Reader</a> en tu ordenador o <a href="https://readera.org/" target="_blank" rel="noopener noreferrer">ReadEra</a> en tu dispositivo movil.</p>
+            </article>
+            <article>
+                <h4>¿Qué puedo hacer si no encuentro el libro que busco?</h4>
+                <p>Tenemos un formulario de pedido de libros en <a href="./pages/pedidos_donaciones.html">nuestra sección de pedidos</a>.</p>
+            </article>
+            <article>
+                <h4>¿Cómo puedo contactarme con ustedes?</h4>
+                <p>Proximamente implementaremos un formulario de contacto para consultas.</p>
+            </article>
+        </section>
     </main>
 
 
 
-    <footer class="p-2 gap-2">
-        <div class="d-flex justify-content-center flex-wrap">
+    <footer class="p-2 gap-2 contenedor columna">
+        <div class="contenedor">
             <div class="col-6 col-md-5 mb-2">
                 <ul class="nav flex-column align-content-center">
                     <li class="nav-item text-center">
