@@ -29,10 +29,14 @@ body {
 header {
     min-height: 15vh;
 }
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    padding: 10px 0;
+}
 
 /*Nav*/
 nav,
-footer, .offcanvas {
+footer, .offcanvas{
     background-color: #283E50;
     color: #B5ECDF;
 }
@@ -59,9 +63,16 @@ main {
     flex-direction: column;
     align-items: center;
 }
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
 
 /*practicando cards con index*/
-.titleindex {
+/* .titleindex {
     text-align:center;
     padding:10px;
     color:rgb(97, 96, 96);
@@ -94,18 +105,15 @@ main {
     flex-direction:column;
     align-items: center;
     gap:5px;
+} */
+.figureUltimos img{
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
 }
 
-
-/*fin practicando cards con index*/
 
 /*seccion ebooks*/
-.cardcontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-}
 
 .tarjeta {
     width: 14rem;
