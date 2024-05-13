@@ -2,7 +2,7 @@ const ultimosContainer = document.getElementById('ultimosContainer')
 const generosContainer = document.getElementById('generosbadges')
 
 async function getebooks() {
-    await fetch('../assets/json/ebooks.json')
+    await fetch('./assets/json/ebooks.json')
         .then(response => response.json())
         .then(data => {
             ebookList = data.ebooks
