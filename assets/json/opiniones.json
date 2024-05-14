@@ -1,0 +1,53 @@
+{
+    "opiniones": [
+        {
+            "id": 1,
+            "libro": "Bajo las Pirámides",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649940728i/60811416.jpg",
+            "opinion": "¡Bajo las Pirámides es una aventura de terror en Egipto! Te mantiene en vilo mientras exploras las misteriosas pirámides con un comerciante gringo. Lovecraft sabe cómo asustarte con sus descripciones escalofriantes. ¡Una montaña rusa de emociones!",
+            "lector": "Ana María"
+        },
+        {
+            "id": 2,
+            "libro": "La guerra de los mundos",
+            "cover": "https://i.postimg.cc/kGVxbZ6G/La-guerra-de-los-mundos.jpg",
+            "opinion": "La guerra de los mundos es un clásico de la ciencia ficción que te sumerge en una invasión extraterrestre. Wells crea una atmósfera de terror y suspenso mientras la humanidad lucha por su supervivencia contra seres de otro mundo. Una lectura emocionante que te dejará sin aliento.",
+            "lector": "Pedro Gómez"
+        },
+        {
+            "id": 3,
+            "libro": "Somos polvo de estrellas",
+            "cover": "https://i.postimg.cc/Ss16jqKH/Somos-polvo-de-estrellas.jpg",
+            "opinion": "Somos polvo de estrellas es un viaje fascinante por el cosmos y la naturaleza del universo. Tyson nos guía a través de los secretos del cosmos, desde la formación de estrellas y planetas hasta el origen de la vida en la Tierra. Una exploración inspiradora que te hará reflexionar sobre nuestro lugar en el universo.",
+            "lector": "Luisa Martínez"
+        },
+        {
+            "id": 4,
+            "libro": "El Principito",
+            "cover": "https://i.postimg.cc/Hnfb42X2/EL-PRINCIPITO.jpg",
+            "opinion": "El Principito es una fábula atemporal que toca el corazón de niños y adultos por igual. Saint-Exupéry nos lleva en un viaje poético a través de la imaginación y la inocencia, explorando temas profundos como el amor, la amistad y la búsqueda del sentido de la vida. Una historia conmovedora que nunca pasa de moda.",
+            "lector": "Laura Fernández"
+        },
+        {
+            "id": 5,
+            "libro": "Bar del Infierno",
+            "cover": "https://i.postimg.cc/Jz3jZjnN/BAR-DEL-INFIERNO.jpg",
+            "opinion": "El Bar del Infierno es una novela intrigante que te sumerge en el oscuro y misterioso mundo de un bar clandestino. Allí, los personajes enfrentan sus propios demonios y secretos más oscuros. Una historia cautivadora que te mantendrá en vilo hasta la última página.",
+            "lector": "Carlos López"
+        },
+        {
+            "id": 6,
+            "libro": "Como agua para chocolate",
+            "cover": "https://assets.lectulandia.com/b/Laura%20Esquivel/Como%20agua%20para%20chocolate%20(1856)/big.jpg",
+            "opinion": "Como agua para chocolate es una novela deliciosa que combina amor, pasión y gastronomía en el México del siglo XX. Es una historia cautivadora que te sumerge en los sabores, olores y emociones de la cocina mexicana. Una lectura sensorial que te dejará con hambre de más.",
+            "lector": "Sofía Rodríguez"
+        },
+        {
+            "id": 7,
+            "libro": "El Alquimista",
+            "cover": "https://assets.lectulandia.com/b/Paulo%20Coelho/El%20Alquimista%20(1421)/big.jpg",
+            "opinion": "El Alquimista es una historia inspiradora sobre seguir tus sueños y descubrir tu destino. Coelho te lleva en un viaje espiritual a través del desierto mientras Santiago busca su tesoro personal. Una lectura reflexiva que te hará cuestionar tus propias metas y deseos.",
+            "lector": "Martín Sánchez"
+        }
+    ]
+}

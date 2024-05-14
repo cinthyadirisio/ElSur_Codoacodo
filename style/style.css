@@ -247,48 +247,34 @@ main {
 }
 
 /* Seccion reseñas */
-.card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
+.cardreseña {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
 }
 
-.card-img-top {
-    height: 200px;
-    object-fit: cover;
+.cardreseña>img {
+    width: 200px;
+    object-fit: contain;
+    border: 2px double #283E50;
 }
 
-.card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+.cuadroreseña {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 400px;
+    height: max-content;
+    padding: 5px;
+    background-color: #916A64;
+    font-size: 14px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.37);
 }
-
-.card-text {
-    font-size: 1rem;
-    color: #555;
-}
-
-.btn-primary {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
-
-.lector {
-    font-size: 1rem;
-}
-
-.btn-primary:hover {
-    background-color: #0056b3;
-}
-
-/* sección de reseñas */
 
 
 /*seccion detalles*/
@@ -306,12 +292,13 @@ main {
 }
 
 /*form*/
-.contenedorform{
+.contenedorform {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contenedorform>form{
+
+.contenedorform>form {
     padding: 15px;
     background-color: #916a64a8;
     border-radius: 10px;
@@ -319,7 +306,8 @@ main {
     display: flex;
     flex-direction: column;
 }
-.celdaform{
+
+.celdaform {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -328,19 +316,27 @@ main {
     flex-grow: 5;
 
 }
-.celdaformsmall{
+
+.celdaformsmall {
     display: flex;
     width: 25%;
     text-align: center;
     flex-grow: 5;
 }
-.celdaform>label{
+
+.celdaform>label {
     padding: 5px;
     width: 10rem;
     text-align: start;
     flex-grow: 1;
 }
-input[type="text"], input[type="email"], textarea, input[type="radio"], select, input[type="email"]{
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="radio"],
+select,
+input[type="email"] {
     padding: 5px;
     border-radius: 10px;
     background-color: #555555a9;
@@ -363,31 +359,48 @@ footer {
     align-items: center;
     justify-content: center;
 }
-.footernews input{
+
+.footernews input {
     width: 15rem;
 }
+
 .footerfoot {
     width: 100%;
     border-top: 1px double #916A64;
 }
 
 @media (max-width: 715px) {
-    .contenedorform>form{
+    .contenedorform>form {
         width: 95%;
     }
+
     .firstinfooter {
         flex-direction: column;
         align-items: center;
     }
+
     .footerNav,
     .footernews {
         width: 80%;
         border-bottom: 1px double #916A64;
     }
 }
-@media (max-width: 522px) {
 
-    .celdaform{
+@media (max-width: 550px) {
+    .cardreseña {
+        width: 100%;
+    }
+
+    .cardreseña>img {
+        width: 30%;
+    }
+    .cuadroreseña{
+        width: 70%;
+        font-size: 13px;
+        height: fit-content;
+    }
+
+    .celdaform {
         flex-direction: column;
     }
 }
