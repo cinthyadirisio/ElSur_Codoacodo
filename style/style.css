@@ -305,10 +305,47 @@ main {
     object-fit: cover;
 }
 
+/*form*/
+.contenedorform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorform>form{
+    padding: 15px;
+    background-color: #916a64a8;
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.celdaform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+    flex-grow: 5;
 
-
-
-
+}
+.celdaformsmall{
+    display: flex;
+    width: 25%;
+    text-align: center;
+    flex-grow: 5;
+}
+.celdaform>label{
+    padding: 5px;
+    width: 10rem;
+    text-align: start;
+    flex-grow: 1;
+}
+input[type="text"], input[type="email"], textarea, input[type="radio"], select, input[type="email"]{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #555555a9;
+    width: 70%;
+}
 
 /*footer*/
 footer {
@@ -326,21 +363,31 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
+.footernews input{
+    width: 15rem;
+}
 .footerfoot {
     width: 100%;
     border-top: 1px double #916A64;
 }
 
 @media (max-width: 715px) {
+    .contenedorform>form{
+        width: 95%;
+    }
     .firstinfooter {
         flex-direction: column;
         align-items: center;
     }
-
     .footerNav,
     .footernews {
         width: 80%;
         border-bottom: 1px double #916A64;
+    }
+}
+@media (max-width: 522px) {
+
+    .celdaform{
+        flex-direction: column;
     }
 }
