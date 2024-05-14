@@ -88,7 +88,7 @@ footer,
 
 /*main*/
 main {
-    min-height: 45vh;
+    min-height: 50vh;
     display: flex;
     flex-grow: 4;
     background-color: beige;
@@ -152,7 +152,7 @@ main {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
 }
 
-.etiqueta{
+.etiqueta {
     padding: 5px 10px;
     background-color: #283E50;
     border-radius: 10px;
@@ -160,11 +160,13 @@ main {
     font-weight: bold;
     color: #916A64;
 }
-.etiqueta:hover{
+
+.etiqueta:hover {
     transition: 1s;
     scale: 1.2;
     color: #9AD0C3;
 }
+
 /*seccion ebooks*/
 
 .tarjeta {
@@ -303,6 +305,42 @@ main {
     object-fit: cover;
 }
 
+
+
+
+
+
+/*footer*/
 footer {
     min-height: 30vh;
+    padding: 0;
+}
+
+.firstinfooter {
+    width: 100%;
+}
+
+.footerNav,
+.footernews {
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerfoot {
+    width: 100%;
+    border-top: 1px double #916A64;
+}
+
+@media (max-width: 715px) {
+    .firstinfooter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerNav,
+    .footernews {
+        width: 80%;
+        border-bottom: 1px double #916A64;
+    }
 }
