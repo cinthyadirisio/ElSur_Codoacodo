@@ -47,18 +47,30 @@ footer,
 .banner-elsur {
     background-color: #283E50;
     color: #B5ECDF;
+
+}
+
+nav,
+footer,
+.ultimos,
+.banner-elsur {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.banner>h1{
+
+/*banner animacion*/
+.banner>h1 {
     font-size: 5rem;
 }
-.smallerpink{
+
+.smallerpink {
     color: #916A64;
     font-size: 3rem;
-    transform: translate(0, -30px );
+    transform: translate(0, -30px);
 }
+
+
 /*Nav*/
 .navbar-toggler-icon {
     fill: #9AD0C3;
@@ -74,6 +86,7 @@ footer,
     color: #9AD0C3;
 }
 
+/*main*/
 main {
     min-height: 45vh;
     display: flex;
@@ -87,8 +100,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-    padding: 15px 5px;
+    gap: 20px;
+    padding: 15px;
 }
 
 .columna {
@@ -116,6 +129,42 @@ main {
     transition: 1s;
 }
 
+/*botones*/
+.botoncito {
+    padding: 7px 12px;
+    color: #B5ECDF;
+    background-color: #283E50;
+    border-radius: 5px;
+    margin: 1%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botoncito-claro {
+    color: #283E50;
+    background-color: #B5ECDF;
+}
+
+.botoncito:hover {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.etiqueta{
+    padding: 5px 10px;
+    background-color: #283E50;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: #916A64;
+}
+.etiqueta:hover{
+    transition: 1s;
+    scale: 1.2;
+    color: #9AD0C3;
+}
 /*seccion ebooks*/
 
 .tarjeta {
@@ -141,8 +190,8 @@ main {
     background-color: #283e50e0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     text-align: center;
     transition: 1s;
 }
@@ -158,7 +207,6 @@ main {
     background-position: 75% 75%;
     background-repeat: no-repeat;
     background-color: #283E50;
-    /* overflow: hidden; */
 }
 
 .banner-beach {
@@ -175,6 +223,7 @@ main {
     object-fit: cover;
     object-position: center center;
 }
+
 .fade-in-out {
     animation: fade-in-out 7s infinite;
 }
@@ -190,6 +239,7 @@ main {
         opacity: 1;
     }
 }
+
 .img-donaciones {
     height: 10rem;
 }
@@ -254,5 +304,5 @@ main {
 }
 
 footer {
-    min-height: 40vh;
+    min-height: 30vh;
 }

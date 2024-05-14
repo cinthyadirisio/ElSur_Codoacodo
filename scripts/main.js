@@ -7,12 +7,10 @@ async function getebooks() {
         .then(data => {
             ebookList = data.ebooks
             let generos = sacarGeneros(ebookList)
-            console.log(ebookList)
-            console.log(generos)
+            // console.log(ebookList)
+            // console.log(generos)
             pintarGenerosIndex(generos, generosContainer)
             pintarTarjetasIndex(filtrarUltimos(ebookList), ultimosContainer);
-            // console.log(pintarTarjetas(ebookList));
-
         }).catch(err => console.error(err))
 } getebooks()
 
@@ -25,7 +23,7 @@ function pintarGenerosIndex(array, container) {
     let fragmento = document.createDocumentFragment()
     array.forEach(elemento => {
         let badge = document.createElement('span')
-        badge.classList = 'badge text-bg-dark'
+        badge.classList = 'etiqueta'
         badge.innerHTML = elemento
         fragmento.appendChild(badge)
     })
@@ -33,7 +31,6 @@ function pintarGenerosIndex(array, container) {
 }
 
 function filtrarUltimos(array){
-    console.log(array);
     let ultimos = array.slice(-4)
     return ultimos
 }

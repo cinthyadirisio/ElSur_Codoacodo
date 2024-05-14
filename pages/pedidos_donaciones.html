@@ -64,13 +64,13 @@
     </header>
 
     <main id="main">
-        <h1 class="text-center fw-bold p-2">Pedidos y Donaciones</h1>
+        <h1>Pedidos y Donaciones</h1>
 
         <div class="banner banner-beach"></div>
 
-        <section>
-            <h2 class="text-center fw-bold p-2">Pedidos de Ebooks</h2>
-            <p class="text-center">¿Buscas un ebook en nuestra web y no lo encontras? <br> ¡Llena el siguiente formulario para que lo agreguemos a nuestra colección proximamente!</p>
+        <section class="contenedor columna">
+            <h2>Pedidos de Ebooks</h2>
+            <p>¿Buscas un ebook en nuestra web y no lo encontras? <br> ¡Llena el siguiente formulario para que lo agreguemos a nuestra colección proximamente!</p>
             <form class="container-fluid gap-2">
                 <div class="container my-2">
                     <label for="book-name" class="form-label fw-bold">Nombre del eBook:</label>
@@ -81,8 +81,8 @@
                     <input type="text" name="book-author" id="book-author" placeholder="Antoine de Saint-Exupéry" class="form-control">
                 </div>
                 <div class="container my-2 d-flex justify-content-around">
-                    <button class="btn btn-dark btn-outline-danger" type="reset">Borrar</button>
-                    <button class="btn btn-dark btn-outline-success" type="submit">Enviar</button>
+                    <button class="botoncito" type="reset">Borrar</button>
+                    <button class="botoncito" type="submit">Enviar</button>
                 </div>
             </form>
         </section>
@@ -136,7 +136,7 @@
               <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                 <label for="newsletter1" class="visually-hidden">Email</label>
                 <input id="newsletter1" type="text" class="form-control" placeholder="Email">
-                <button class="btn btn-dark" type="button">Suscribete</button>
+                <button class="botoncito botoncito-claro" type="button">Suscribete</button>
               </div>
             </form>
           </div>

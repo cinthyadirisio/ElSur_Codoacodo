@@ -28,8 +28,8 @@ function pintarDetalles(element, container) {
                 <p class="my-2">${element.sinopsis}</p>
                 <div>
                     <h6 class="fw-bolder">Disponible en:</h6>
-                    ${element.epub !== "void" ? `<a href="${element.epub}" class="btn btn-dark" target="_blank">ePub</a>` : ''}
-                    ${element.pdf !== "void" ? `<a href="${element.pdf}" class="btn btn-dark" target="_blank">PDF</a>` : ''}
+                    ${element.epub !== "void" ? `<a href="${element.epub}" class="botoncito botoncito-claro" target="_blank">ePub</a>` : ''}
+                    ${element.pdf !== "void" ? `<a href="${element.pdf}" class="botoncito botoncito-claro" target="_blank">Pdf</a>` : ''}
                 </div>
             
             </div>

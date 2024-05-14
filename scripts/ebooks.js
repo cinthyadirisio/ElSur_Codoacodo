@@ -24,7 +24,7 @@ function pintarGenerosIndex(array, container) {
     let fragmento = document.createDocumentFragment()
     array.forEach(elemento => {
         let badge = document.createElement('span')
-        badge.classList = 'badge text-bg-dark'
+        badge.classList = 'etiqueta'
         badge.innerHTML = elemento
         fragmento.appendChild(badge)
     })
@@ -39,14 +39,15 @@ function pintarTarjetas(array, container) {
         div.classList = 'tarjeta'
         div.innerHTML = `
             <img src=${elemento.cover} alt=${elemento.titulo}>
-            <div class="textotarjeta p-2">
-                <h5 class="fw-bold">${elemento.titulo}</h5>
+            <div class="textotarjeta">
+                <h5>${elemento.titulo}</h5>
                 <h6>${elemento.autor}</h6>
-                <div class="my-2">
-                    ${elemento.generos.map(item => `<span class="badge text-bg-dark">${item}</span>`).join(' ')}
+                <div class="contenedor">
+                    ${elemento.generos.map(item => `<span class="etiqueta">${item}</span>`).join(' ')}
                 </div>
-                <div class="my-2">
-                    <a href="./detalles.html?id=${elemento.id}" class="btn btn-dark">Leer más!</a>
+                <div>
+                
+                    <a href="./detalles.html?id=${elemento.id}" class="botoncito">Detalles</a>
                 </div>
             </div>`
         fragmento.appendChild(div)
