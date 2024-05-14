@@ -203,6 +203,15 @@ main {
 }
 
 /*seccion pedidos y donaciones*/
+.formpedido{
+    width: 350px;
+    background-color: #916A64;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-weight: bold;
+}
 .banner {
     width: 100%;
     height: 40vh;
@@ -217,13 +226,6 @@ main {
 
 .banner-ebook {
     background-image: url("../assets/img/eBooks-Banner.png");
-}
-
-.banner-elsur>img {
-    width: 80%;
-    height: inherit;
-    object-fit: cover;
-    object-position: center center;
 }
 
 .fade-in-out {
@@ -244,6 +246,12 @@ main {
 
 .img-donaciones {
     height: 10rem;
+}
+.celdaboton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 /* Seccion reseñas */
@@ -399,7 +407,9 @@ footer {
         font-size: 13px;
         height: fit-content;
     }
-
+    .formpedido{
+        width: 100%;
+    }
     .celdaform {
         flex-direction: column;
     }
