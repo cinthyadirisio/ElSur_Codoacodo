@@ -1,7 +1,7 @@
 const detailContainer = document.getElementById('detailContainer')
 
 async function getebooks(){
-    await fetch('../assets/json/ebooks.json')
+    await fetch('https://cinthyadirisio.github.io/ElSur_Codoacodo/assets/json/ebooks.json')
         .then(response => response.json())
         .then(data =>{
             ebooksList = data.ebooks

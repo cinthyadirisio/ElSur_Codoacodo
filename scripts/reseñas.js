@@ -1,7 +1,7 @@
 const reseñaContainer = document.getElementById('reseñacontainer')
 
 async function getOpiniones() {
-    await fetch('../assets/json/opiniones.json')
+    await fetch('https://cinthyadirisio.github.io/ElSur_Codoacodo/assets/json/opiniones.json')
         .then(response => response.json())
         .then(data => {
             opinionesList = data.opiniones

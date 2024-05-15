@@ -1,7 +1,7 @@
 const cardcontainer = document.getElementById('cardcontainer');
 
 async function getebooks() {
-    await fetch('../assets/json/ebooks.json')
+    await fetch('https://cinthyadirisio.github.io/ElSur_Codoacodo/assets/json/ebooks.json')
         .then(response => response.json())
         .then(data => {
             ebookList = data.ebooks
