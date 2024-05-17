@@ -390,6 +390,32 @@
       "sinopsis": "Este libro está dirigido a los estudiantes de carreras técnicas, pero también puede ser utilizado por los estudiantes de matemáticas o física. Contiene más de 340 ejemplos y cerca de 2400 ejercicios. Hay problemas y secciones de autoevaluación para los alumnos. La estructura del libro es adecuada para diferentes niveles, desde principiantes hasta lectores más avanzados que pueden deshacerse de algunas partes del libro que ya conocen. Incluye temas como sistemas de ecuaciones lineales, matrices, determinantes, vectores en R2 y R3, espacios vectoriales, transformaciones lineales, eigenvalores, eigenvectores y formas canónicas, entre otros.",
       "link-epub": "void",
       "link-pdf": "https://www.mediafire.com/file/euyiffvj6bvvl7v/Algebra_Lineal.pdf/file"
+    },
+    {
+      "id": "033",
+      "titulo": "Las hijas horribles",
+      "autor": "Blanca Lacasa Carralón",
+      "generos": [
+        "Ciencias sociales",
+        "Ensayo"
+      ],
+      "cover": "https://assets.lectulandia.com/b/ab/Blanca%20Lacasa%20Carralon/Las%20hijas%20horribles%20(1)/big.jpg",
+      "sinopsis": "La relación entre madres e hijas está marcada, con frecuencia sospechosa, por la dificultad, el desencuentro o el dolor. Madres e hijas parecemos estar condenadas a no entendernos. ¿Por qué subyace tanta tensión entre nosotras? ¿Por qué es tan común que este lazo sea tan complejo y, en ocasiones, tan perjudicial? ¿De verdad somos todas tan iguales? ¿Por qué, sin embargo, la figura paterna suele percibirse de manera más amable? Si ellas tienen que lidiar con el odioso cliché de la mala madre, nosotras hemos de hacerlo con el de mala hija. Quizá haya llegado la hora de empezar a cuestionarse cuánto hay de verdadero en esto y cuánto de ambiental. Igual ya es hora de dejar de sentirse hijas despiadadas, egoístas u olvidadizas. Hijas horribles. En este libro, la escritora y periodista Blanca Lacasa trata de resolver el enigma que parece rodear este vínculo y lo hace hablando con expertas, acudiendo a teóricas o echando mano de la cultura popular, pero sobre todo, preguntando y escuchando a mujeres para que cuenten sus experiencias.",
+      "link-epub": "https://www.antupload.com/file/XJKcbd1Y/",
+      "link-pdf": "https://www.antupload.com/file/YEfK61tL/"
+    },
+    {
+      "id": "034",
+      "titulo": "Yo maté a un perro en Rumanía",
+      "autor": "Claudia Ulloa Donoso",
+      "generos": [
+        "Novela",
+        "Psicológico"
+      ],
+      "cover": "https://assets.lectulandia.com/b/ab/Claudia%20Ulloa%20Donoso/Yo%20mate%20a%20un%20perro%20en%20Rumania%20(1)/big.jpg",
+      "sinopsis": "En Noruega, una mujer latinoamericana que enseña el idioma local a inmigrantes se encuentra sumida en una fuerte depresión. Adicta a los calmantes y al alcohol, ha sido dada de baja laboral y encuentra pocos motivos para salir de su departamento. Su estado preocupa mucho a su amigo Mihail, un exalumno de origen rumano que ha intentado mantenerla a flote. Sin embargo, Mihail debe viajar pronto a Rumanía y teme que lo peor ocurra en su ausencia, por lo que decide llevar consigo a su antigua profesora. Así, la anónima protagonista de esta novela viaja a un país que le resulta completamente desconocido. A su llegada, ve a su atento exalumno transformarse en un hombre pragmático y malhumorado que intercambia dinero y documentos con individuos ariscos; conoce a su familia, la mayoría sumida en la nostalgia por aquellos que han migrado en busca de un mejor sustento; viaja por pueblos sumidos en la penumbra o ciudades que combinan el neón con moles de concreto y la añoranza por un pasado imperial hace tiempo perdido. En este viaje, la profesora de idiomas no solo logrará sortear la incomunicación en la que la sumerge una lengua completamente ajena, sino que se confrontará directamente con la muerte: con su presencia, la idea de su inminencia y, también, con las maneras que las personas de este mundo han encontrado para lidiar con ella.",
+      "link-epub": "https://www.antupload.com/file/DU43OTi8/",
+      "link-pdf": "https://www.antupload.com/file/wdpHJe7N/"
     }
   ]
 }
